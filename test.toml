@@ -1,0 +1,9 @@
+[[prefab]]
+name = "socs.zynqps8.all"
+
+[[instance]]
+name = "Bob"
+type = "program.bob"
+software = "bob.toml"
+cpus = "r5f"
+depends = ["core", "dbg", "utils"]
