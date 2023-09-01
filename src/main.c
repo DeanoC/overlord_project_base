@@ -5,4 +5,6 @@
 EXTERN_C NO_RETURN void main()
 {
   debug_printf("Hello Bob\n");
+  while(1) {
+  };
 }

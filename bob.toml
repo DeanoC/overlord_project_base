@@ -5,8 +5,8 @@ actions = [
 [[process]]
 name = 'soft_src'
 processor = 'software_sources'
-cpus = "r5f"
+cpus = "a53"
 sources = [
-    { in = "sources", out = "source" },
+    { in = "src", out = "src" },
     { in = "CMakeLists.txt", out = "CMakeLists.txt" },
 ]

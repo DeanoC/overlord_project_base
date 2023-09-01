@@ -2,8 +2,8 @@
 name = "socs.zynqps8.all"
 
 [[instance]]
-name = "Bob"
+name = "bob"
 type = "program.bob"
 software = "bob.toml"
-cpus = "r5f"
+cpus = "a53"
 depends = ["core", "dbg", "utils"]
